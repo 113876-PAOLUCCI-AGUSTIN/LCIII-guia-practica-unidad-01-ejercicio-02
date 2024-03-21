@@ -11,7 +11,7 @@ public class Main {
         Scanner teclado = new Scanner(System.in);
         System.out.println("Ingrese el precio del artículo...");
         Double precioArticulo = teclado.nextDouble();
-        System.out.println("Precio del articulo IVA incl.:"+calcularIVA(precioArticulo));
+        System.out.println("Precio del articulo IVA incl.: $ "+calcularIVA(precioArticulo));
     }
     private static Double calcularIVA(Double precio) {
         return precio * 1.21;
